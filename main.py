@@ -1,6 +1,3 @@
-def main():
-    print("Hello from repl-nix-workspace!")
-
-
-if __name__ == "__main__":
-    main()
+git rm main.py
+git commit -m "Delete main.py"
+git push
