@@ -13,10 +13,11 @@ st.set_page_config(page_title="Invoice Ninja AI", layout="centered")
 st.title("Invoice Ninja AI")
 st.markdown("### Generate beautiful PDF invoices in 3 seconds — no signup, no BS")
 
-# Sidebar branding
+# Sidebar branding — FIXED
 with st.sidebar:
-    st.image("https://i.imgur.com/8QvJ5eK.png", width=200)  # ninja logo
-    st.markdown("**Built in one night**  \nMade for freelancers who hate Canva & Word")
+    st.image("https://i.imgur.com/8QvJ5eK.png", width=200)
+    st.markdown("**Built in one night**")
+    st.markdown("Made for freelancers who hate Canva & Word")
     st.caption("© 2025 Invoice Ninja AI")
 
 col1, col2 = st.columns(2)
